@@ -1,0 +1,15 @@
+### Listar Folha
+GET http://localhost:3333
+
+### Cadastrar despesa
+POST http://localhost:3333/despesa/cadastrar
+Content-Type: application/json
+
+
+{
+    "descricao" : "Conta de luz",
+    "preco" : 120
+}
+
+
+
